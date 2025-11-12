@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699523356767",
+    "project_id": "vizoo-b9b8d",
+    "storage_bucket": "vizoo-b9b8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699523356767:android:75a2398d97d2eef3a3a3ea",
+        "android_client_info": {
+          "package_name": "com.example.vizoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699523356767-meaksotlu6eihrk65v0ei7r5dgu8l7ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSS3E4jQbT538lk0PKBjl33xlW__23F14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699523356767-meaksotlu6eihrk65v0ei7r5dgu8l7ji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
