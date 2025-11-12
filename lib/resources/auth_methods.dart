@@ -22,17 +22,17 @@ class AuthMethods {
             '699523356767-meaksotlu6eihrk65v0ei7r5dgu8l7ji.apps.googleusercontent.com',
       );
       final GoogleSignInAccount googleUser = await signIn.authenticate();
-      final GoogleSignInAuthentication? googleAuth = googleUser.authentication;
+      final GoogleSignInAuthentication googleAuth = googleUser.authentication;
       final credential = GoogleAuthProvider.credential(
-        accessToken: googleAuth?.idToken,
-        idToken: googleAuth?.idToken,
+        accessToken: googleAuth.idToken,
+        idToken: googleAuth.idToken,
       );
       UserCredential userCredential = await _auth.signInWithCredential(
         credential,
       );
-      final GoogleSignInClientAuthorization? authorization = await googleUser
-          .authorizationClient
-          .authorizationForScopes(['email', 'phone']);
+      // final GoogleSignInClientAuthorization? authorization = await googleUser
+      //     .authorizationClient
+      //     .authorizationForScopes(['email', 'phone']);
       User? user = userCredential.user;
       if (user != null) {
         if (userCredential.additionalUserInfo!.isNewUser) {

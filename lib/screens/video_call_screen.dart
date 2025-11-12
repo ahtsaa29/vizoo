@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jitsi_meet_flutter_sdk/jitsi_meet_flutter_sdk.dart';
 import 'package:vizoo/resources/auth_methods.dart';
 import 'package:vizoo/resources/jitsi_meet_methods.dart';
 import 'package:vizoo/utils/colors.dart';
@@ -21,7 +20,6 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
   bool isVideoMuted = true;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     roomId = TextEditingController();
     nameController = TextEditingController(text: _authMethods.user.displayName);

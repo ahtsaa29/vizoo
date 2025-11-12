@@ -1,6 +1,4 @@
-import 'dart:developer';
 import 'dart:math' hide log;
-
 import 'package:flutter/material.dart';
 import 'package:vizoo/resources/jitsi_meet_methods.dart';
 import 'package:vizoo/widgets/home_meeting_button.dart';
